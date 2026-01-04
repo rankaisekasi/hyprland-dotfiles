@@ -13,7 +13,7 @@ BACKUP_TIMESTAMP=$(date +%Y%m%d_%H%M%S)
 if [[ "$DOTFILES_DIR" == *"/dev/fd"* ]] || [ ! -d "$DOTFILES_DIR/.config" ]; then
     echo -e "${BLUE}[INFO]${NC} Running in bootstrap mode..."
     TARGET_DIR="$HOME/hyprland-dots"
-    REPO_URL="https://github.com/terminal-index/hyprland-dots.git"
+    REPO_URL="https://github.com/terminal-index/hyprland-dotfiles.git"
 
     if [ -d "$TARGET_DIR" ]; then
         echo -e "${YELLOW}[WARNING]${NC} Directory $TARGET_DIR already exists."
