@@ -99,6 +99,8 @@ install_dependencies() {
                 polkit-kde-agent
                 rust
                 cargo
+                wireplumber
+                pavucontrol
             )
 
             AUR_PACKAGES=(
@@ -112,6 +114,7 @@ install_dependencies() {
                 gnome-themes-extra
                 gtk-engine-murrine
                 waypaper
+                swww
             )
 
             sudo pacman -S --needed "${PACKAGES[@]}"
@@ -203,9 +206,10 @@ install_dependencies() {
                 nwg-displays \
                 sassc \
                 gtk-murrine-engine \
+                pavucontrol \
                 gnome-themes-extra
             
-            log_warn "Fedora users need to manually install: swaync, wlogout, waypaper, and potentially niflveil from COPR or source. Check repo's README."
+            log_warn "Fedora users need to manually install: swww, swaync, wlogout, waypaper, and potentially niflveil from COPR or source. Check repo's README."
             
             install_gruvbox_theme
             ;;
@@ -226,6 +230,7 @@ install_dependencies() {
                 zathura \
                 imv \
                 wireplumber \
+                pavucontrol \
                 nwg-look \
                 sassc \
                 gtk2-engines-murrine \
@@ -279,7 +284,7 @@ cat << "EOF"
 |   |_|\___|_| |_|_|_|_|_||_\__,_|_|  |___|_||_\__,_\___/_\_\ |
 |                                                             |
 |      Created by @szoltysek                                  |
-|      Gruvbox-themed Dotfiles Installer, version 1.0.0       |
+|      Gruvbox-themed Dotfiles Installer, version 1.0.2       |
 |-------------------------------------------------------------|
 EOF
 
